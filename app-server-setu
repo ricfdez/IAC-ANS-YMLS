@@ -36,3 +36,14 @@ I had to provide full permissions to all users in the app folder for npm to work
 ---Automating the application deployment---
 Currently, a service is running our application through a script, in time-off-mgmt, script.sh
 And a service have been configured to run it. (appdeploy.service)
+
+
+
+
+
+
+STEPS
+TErraform plan
+terraform apply
+ansible-playbook -v site.yml -i /home/ric/Documents/terraform/hosts
+
